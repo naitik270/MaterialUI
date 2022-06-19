@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dedsec.materialui">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SliderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationBasic" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationShifting" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationLight" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationDark" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationIcon" />
+        <activity android:name=".activity.bottomsheet.BottomSheetBasic" />
+        <activity android:name=".activity.bottomsheet.BottomSheetList" />
+        <activity android:name=".activity.bottomsheet.BottomSheetMap" />
+        <activity android:name=".content.ContentTabsStore" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationPrimary" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationMapBlue" />
+        <activity android:name=".activity.bottomsheet.BottomSheetFloating" />
+        <activity android:name=".activity.bottomsheet.BottomSheetFull" />
+        <activity android:name=".activity.button.ButtonBasic" />
+        <activity android:name=".activity.button.ButtonInUtilities" />
+        <activity android:name=".activity.button.ButtonFabMiddle" />
+        <activity android:name=".activity.button.ButtonFabMore" />
+        <activity android:name=".activity.button.ButtonFabMoreText" />
+        <activity android:name=".activity.cards.CardBasic" />
+        <activity android:name=".activity.cards.CardTimeline" />
+        <activity android:name=".activity.cards.CardOverlap" />
+        <activity android:name=".activity.cards.CardWizard" />
+        <activity android:name=".activity.cards.CardWizardLight" />
+        <activity android:name=".activity.cards.CardWizardOverlap" />
+        <activity android:name=".activity.chips.ChipsBasic" />
+        <activity android:name=".activity.chips.ChipsTag" />
+        <activity android:name=".activity.dialog.DialogBasic" />
+        <activity android:name=".activity.dialog.DialogFullscreen" />
+        <activity android:name=".activity.dialog.DialogCustom" />
+        <activity android:name=".activity.dialog.DialogCustomInfo" />
+        <activity android:name=".activity.dialog.DialogCustomWarning" />
+        <activity android:name=".activity.dialog.DialogCustomLight" />
+        <activity android:name=".activity.dialog.DialogCustomDark" />
+        <activity android:name=".activity.dialog.DialogAdPost" />
+        <activity android:name=".activity.dialog.DialogAddReview" />
+        <activity android:name=".activity.expansionpanel.ExpansionPanelBasic" />
+        <activity android:name=".activity.expansionpanel.ExpansionPanelInvoice" />
+        <activity android:name=".activity.expansionpanel.ExpansionPanelTicket" />
+        <activity android:name=".activity.grid.GridBasic" />
+        <activity android:name=".activity.grid.GridSingleLine" />
+        <activity android:name=".activity.grid.GridTwoLine" />
+        <activity android:name=".activity.grid.GridSectioned" />
+        <activity android:name=".activity.grid.GridAlbums" />
+        <activity android:name=".activity.grid.GridCaller" />
+        <activity android:name=".activity.list.ListBasic" />
+        <activity android:name=".activity.list.ListSectioned" />
+        <activity android:name=".activity.list.ListAnimation" />
+        <activity android:name=".activity.list.ListExpand" />
+        <activity android:name=".activity.list.ListDragable" />
+        <activity android:name=".activity.list.ListSwipe" />
+        <activity android:name=".activity.list.ListMultiSelection" />
+        <activity android:name=".activity.menu.MenuDrawerNews" />
+        <activity android:name=".activity.menu.MenuDrawerMail" />
+        <activity android:name=".activity.menu.MenuDrawerSimpleLight" />
+        <activity android:name=".activity.menu.MenuDrawerSimpleDark" />
+        <activity android:name=".activity.menu.MenuDrawerNoIcon" />
+        <activity android:name=".activity.menu.MenuOverflowToolbar" />
+        <activity android:name=".activity.menu.MenuOverflowList" />
+        <activity android:name=".activity.picker.PickerDateLight" />
+        <activity android:name=".activity.picker.PickerDateDark" />
+        <activity android:name=".activity.picker.PickerRGBColor" />
+        <activity android:name=".activity.picker.PickerTimeLight" />
+        <activity android:name=".activity.picker.PickerTimeDark" />
+        <activity android:name=".activity.picker.PickerLocation" />
+        <activity android:name=".activity.progressactivity.ProgressBasic" />
+        <activity android:name=".activity.progressactivity.ProgressLinearCenter" />
+        <activity android:name=".activity.progressactivity.ProgressLinearTop" />
+        <activity android:name=".activity.progressactivity.ProgressCircleCenter" />
+        <activity android:name=".activity.progressactivity.ProgressOnScroll" />
+        <activity android:name=".activity.progressactivity.ProgressPullRefresh" />
+        <activity android:name=".activity.progressactivity.ProgressDotsBounce" />
+        <activity android:name=".activity.slider.SliderLight" />
+        <activity android:name=".activity.slider.SliderDark" />
+        <activity android:name=".activity.slider.SliderColorPicker" />
+        <activity android:name=".activity.snackbartoast.SnackbarToastBasic" />
+        <activity android:name=".activity.snackbartoast.SnackbarAndFab" />
+        <activity android:name=".activity.tabs.TabsBasic" />
+        <activity android:name=".activity.tabs.TabsStore" />
+        <activity android:name=".activity.tabs.TabsLight" />
+        <activity android:name=".activity.tabs.TabsDark" />
+        <activity android:name=".activity.tabs.TabsIcon" />
+        <activity android:name=".activity.tabs.TabsTextIcon" />
+        <activity android:name=".activity.tabs.TabsIconLight" />
+        <activity android:name=".activity.tabs.TabsIconStack" />
+        <activity android:name=".activity.tabs.TabsScroll" />
+        <activity android:name=".activity.tabs.TabsRound" />
+        <activity android:name=".activity.form.FormLogin" />
+        <activity android:name=".activity.form.FormSignup" />
+        <activity android:name=".activity.form.FormProfileData" />
+        <activity android:name=".activity.form.FormWithIcon" />
+        <activity android:name=".activity.form.FormTextArea" />
+        <activity android:name=".activity.toolbar.ToolbarBasic" />
+        <activity android:name=".activity.toolbar.ToolbarCollapse" />
+        <activity android:name=".activity.toolbar.ToolbarCollapsePin" />
+        <activity android:name=".activity.toolbar.ToolbarLight" />
+        <activity android:name=".activity.toolbar.ToolbarDark" />
+        <activity android:name=".code.BottomNavigationCode" />
+        <activity android:name=".code.BottomSheetCode" />
+        <activity android:name=".code.ButtonsCode" />
+        <activity android:name=".code.CardsCode" />
+        <activity android:name=".code.DialogCode" />
+        <activity android:name=".code.ChipsCode" />
+        <activity android:name=".code.ExpansionPanelsCode" />
+        <activity android:name=".activity.AboutActivity"></activity>
+    </application>
+
+</manifest>

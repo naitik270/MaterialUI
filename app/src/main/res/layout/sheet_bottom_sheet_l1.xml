@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_l1_sheet"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/white"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp">
+
+    <TextView
+        android:id="@+id/txt_person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roberts"
+        android:padding="5dp"
+        android:textColor="@color/txtSecondary"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/person_description"
+        android:padding="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="end">
+        <Button
+            android:id="@+id/bottom_sheet_close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLOSE"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/colorAccent"
+            android:background="?attr/selectableItemBackground"/>
+        <Button
+            android:id="@+id/bottom_sheet_details_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue_A700"
+            android:text="DETAILS"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/txtPrimary"/>
+    </LinearLayout>
+
+</LinearLayout>

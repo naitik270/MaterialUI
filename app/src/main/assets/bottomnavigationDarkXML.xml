@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/grey_900"
+        app:itemIconTint="@color/color_state_light"
+        app:itemTextColor="@color/color_state_light"
+        app:menu="@menu/menu_bottom_navigation_basic" />
+
+</RelativeLayout>
+
+
+// Menu file -----------------------------------------------
+menu_bottom_navigation_basic.xml
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_recent"
+        android:icon="@drawable/ic_resents"
+        android:title="Recents"/>
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favorite"/>
+
+    <item
+        android:id="@+id/navigation_nearby"
+        android:icon="@drawable/ic_nearby"
+        android:title="NearBy"/>
+
+</menu>

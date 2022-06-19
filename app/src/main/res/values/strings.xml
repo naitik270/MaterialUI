@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">MaterialUI</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- list of slider description -->
+    <string name="description_1">It Provides a Various Layout Design</string>
+    <string name="description_2">Has XML Frontend Code for a particular layout design</string>
+    <string name="description_3">You can easily implement a JAVA code. We add a Java code for particular layout design\'s.</string>
+
+    <!-- list of Titles -->
+    <string name="title_1">Bottom Navigation</string>
+    <string name="title_2">Bottom Sheet</string>
+    <string name="title_3">Buttons</string>
+    <string name="title_4">Cards</string>
+    <string name="title_5">Dialogs</string>
+    <string name="title_6">Chips</string>
+    <string name="title_7">Expansion Panels</string>
+    <string name="title_8">Grid</string>
+    <string name="title_9">Lists</string>
+    <string name="title_10">Menu</string>
+    <string name="title_11">Pickers</string>
+    <string name="title_12">Progress &amp; Activity</string>
+    <string name="title_13">Sliders</string>
+    <string name="title_14">Snackbars &amp;Toasts</string>
+    <string name="title_15">Tabs</string>
+    <string name="title_16">Form</string>
+    <string name="title_17">Toolbars</string>
+
+    <!-- for Dialog Box -->
+    <string name="about_description">This app is based\n
+        on Google\'s Material Component \n
+        And it\'s design \n
+        Guidelines.</string>
+    <string name="support_name">MaterialX</string>
+    <string name="support_description">MaterialX is a Material component based app.
+        \nIt is available on Envatomarket and it is paid.
+        \nI take it for my reference.</string>
+
+    <string name="maker_name">Naitik Talia</string>
+    <string name="decription">App Developer</string>
+    <string name="maker_github_profile_name">naitik270</string>
+
+    <!-- Strings For Content Default cardView -->
+    <string name="new_releases">New Releases</string>
+    <string name="recommended">Recommended</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="txt_more">MORE</string>
+
+    <!-- Menu String -->
+    <!-- Menu T1-L2 -->
+    <string name="label_movie_tv">Movies &amp; TV</string>
+    <string name="label_music">Music</string>
+    <string name="label_books">Books</string>
+    <string name="label_newsstand">Newsstand</string>
+    <string name="label_games">Games</string>
+
+    <!-- Person -->
+    <string-array name="array_person_name">
+        <item>Evans Collins</item>
+        <item>Sarah Scott</item>
+        <item>Betty L</item>
+        <item>Garcia Lewis</item>
+        <item>Anderson Thomas</item>
+        <item>Kevin John</item>
+        <item>Laura Michelle</item>
+        <item>Roberts</item>
+        <item>Adams Green</item>
+        <item>Roberts Turner</item>
+        <item>Mary Jackson</item>
+        <item>Miller Wilson</item>
+        <item>Betty C</item>
+        <item>Elizabeth</item>
+    </string-array>
+    <string name="person_description">Hi, Guys
+        \nI am from NewYork city and i want to announced to my lovely city
+        that i have organized a Program in  our city.
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="step_of">Step %1$d of %2$d</string>
+    <string name="section_format">Section : %1$d</string>
+
+</resources>

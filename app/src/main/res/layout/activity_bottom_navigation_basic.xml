@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryGray"
+    tools:context=".activity.bottomnavigation.BottomNavigationBasic">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:titleTextColor="@color/txtSecondary"
+            app:title="Title">
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/t1_l1_bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        style="Widget.MaterialComponents.BottomNavigationView"
+        app:itemBackground="@color/grayDark"
+        app:itemIconTint="@color/bottom_navigation_item_white"
+        app:itemTextColor="@color/bottom_navigation_item_white"
+        app:menu="@menu/menu_bottom_navigation_basic">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <include layout="@layout/content_default_cardview_white"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
